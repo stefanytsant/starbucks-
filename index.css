@@ -1,0 +1,127 @@
+*{
+    margin: 0 ;
+    margin-left: 2%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    color: black;
+   
+
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+header{
+    height: 200px;
+    padding: 20px 0;
+
+}
+
+.logo{
+    width: 35%;
+
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+   
+    margin-right: 5px;
+    
+
+}
+
+section.sobre{
+    position: relative;
+    height: calc(100% - 200px);
+   
+}
+
+.extras{
+    position: absolute;
+    bottom: -400px;
+    right: -400px;
+    width: 800px;
+    height: 900px;
+    border-radius: 50%;
+    background-color:#017143;
+}
+
+.social-media{
+    position: absolute;
+   right: 410px;
+   top: 200px;
+
+}
+
+.social-media img{
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+
+
+}
+section a{
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+
+
+.texto{
+    margin-top: 10px;
+    text-align: left;
+   
+    
+
+}
+
+.texto h1{
+    font-size: 40px;
+    
+}
+
+.texto p{
+    margin: 2px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: lighter;
+    max-width: 500px;
+    padding: 3%;
+    
+   
+}
+
+.center p{
+    text-align: left;
+}
+
+.texto button{
+    border: 0;
+    background-color:#017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+
+}
